@@ -14,7 +14,7 @@ layout: default
 
 ## Gameplay Video
 
-<iframe width="560" height="315" src="https://youtu.be/cdBJgM_sqhk" frameborder="0" allowfullscreen></iframe>
+<a href="https://youtu.be/cdBJgM_sqhk">Gameplay video</a>
 
 ## Game Download
 
