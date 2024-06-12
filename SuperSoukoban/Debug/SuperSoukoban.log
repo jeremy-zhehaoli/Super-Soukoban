@@ -1,0 +1,39 @@
+﻿Enemy.obj : error LNK2019: unresolved external symbol _DrawRectangleLines referenced in function "public: void __thiscall Enemy::DrawVisibilityArea(struct Color const &)const " (?DrawVisibilityArea@Enemy@@QBEXABUColor@@@Z)
+FadeTransition.obj : error LNK2019: unresolved external symbol _DrawRectangle referenced in function "public: void __thiscall FadeTransition::Render(void)" (?Render@FadeTransition@@QAEXXZ)
+FadeTransition.obj : error LNK2019: unresolved external symbol _Fade referenced in function "public: void __thiscall FadeTransition::Render(void)" (?Render@FadeTransition@@QAEXXZ)
+Game.obj : error LNK2019: unresolved external symbol _InitWindow referenced in function "public: enum AppStatus __thiscall Game::Initialise(float)" (?Initialise@Game@@QAE?AW4AppStatus@@M@Z)
+Game.obj : error LNK2019: unresolved external symbol _CloseWindow referenced in function "public: void __thiscall Game::Cleanup(void)" (?Cleanup@Game@@QAEXXZ)
+Game.obj : error LNK2019: unresolved external symbol _WindowShouldClose referenced in function "public: enum AppStatus __thiscall Game::Update(void)" (?Update@Game@@QAE?AW4AppStatus@@XZ)
+Game.obj : error LNK2019: unresolved external symbol _ClearBackground referenced in function "public: void __thiscall Game::Render(void)" (?Render@Game@@QAEXXZ)
+Game.obj : error LNK2019: unresolved external symbol _BeginDrawing referenced in function "public: void __thiscall Game::Render(void)" (?Render@Game@@QAEXXZ)
+Game.obj : error LNK2019: unresolved external symbol _EndDrawing referenced in function "public: void __thiscall Game::Render(void)" (?Render@Game@@QAEXXZ)
+Game.obj : error LNK2019: unresolved external symbol _BeginTextureMode referenced in function "public: void __thiscall Game::Render(void)" (?Render@Game@@QAEXXZ)
+Game.obj : error LNK2019: unresolved external symbol _EndTextureMode referenced in function "public: void __thiscall Game::Render(void)" (?Render@Game@@QAEXXZ)
+Game.obj : error LNK2019: unresolved external symbol _SetTargetFPS referenced in function "public: enum AppStatus __thiscall Game::Initialise(float)" (?Initialise@Game@@QAE?AW4AppStatus@@M@Z)
+Game.obj : error LNK2019: unresolved external symbol _IsKeyPressed referenced in function "public: enum AppStatus __thiscall Game::Update(void)" (?Update@Game@@QAE?AW4AppStatus@@XZ)
+Player.obj : error LNK2001: unresolved external symbol _IsKeyPressed
+Scene.obj : error LNK2001: unresolved external symbol _IsKeyPressed
+Game.obj : error LNK2019: unresolved external symbol _SetExitKey referenced in function "public: enum AppStatus __thiscall Game::Initialise(float)" (?Initialise@Game@@QAE?AW4AppStatus@@M@Z)
+Game.obj : error LNK2019: unresolved external symbol _LoadRenderTexture referenced in function "public: enum AppStatus __thiscall Game::Initialise(float)" (?Initialise@Game@@QAE?AW4AppStatus@@M@Z)
+Game.obj : error LNK2019: unresolved external symbol _UnloadRenderTexture referenced in function "private: void __thiscall Game::UnloadResources(void)" (?UnloadResources@Game@@AAEXXZ)
+Game.obj : error LNK2019: unresolved external symbol _SetTextureFilter referenced in function "public: enum AppStatus __thiscall Game::Initialise(float)" (?Initialise@Game@@QAE?AW4AppStatus@@M@Z)
+Game.obj : error LNK2019: unresolved external symbol _DrawTexture referenced in function "public: void __thiscall Game::Render(void)" (?Render@Game@@QAEXXZ)
+Game.obj : error LNK2019: unresolved external symbol _DrawTexturePro referenced in function "public: void __thiscall Game::Render(void)" (?Render@Game@@QAEXXZ)
+Player.obj : error LNK2019: unresolved external symbol _IsKeyDown referenced in function "private: void __thiscall Player::LogicClimbing(void)" (?LogicClimbing@Player@@AAEXXZ)
+Player.obj : error LNK2019: unresolved external symbol _DrawPixel referenced in function "public: void __thiscall Player::DrawDebug(struct Color const &)const " (?DrawDebug@Player@@QBEXABUColor@@@Z)
+RenderComponent.obj : error LNK2001: unresolved external symbol _DrawPixel
+Player.obj : error LNK2019: unresolved external symbol _DrawText referenced in function "public: void __thiscall Player::DrawDebug(struct Color const &)const " (?DrawDebug@Player@@QBEXABUColor@@@Z)
+Player.obj : error LNK2019: unresolved external symbol _TextFormat referenced in function "public: void __thiscall Player::DrawDebug(struct Color const &)const " (?DrawDebug@Player@@QBEXABUColor@@@Z)
+Scene.obj : error LNK2001: unresolved external symbol _TextFormat
+RenderComponent.obj : error LNK2019: unresolved external symbol _DrawRectangleRec referenced in function "public: void __thiscall RenderComponent::DrawBox(int,int,int,int,struct Color const &)const " (?DrawBox@RenderComponent@@QBEXHHHHABUColor@@@Z)
+ResourceManager.obj : error LNK2019: unresolved external symbol _LoadTexture referenced in function "public: enum AppStatus __thiscall ResourceManager::LoadTexture(enum Resource,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?LoadTexture@ResourceManager@@QAE?AW4AppStatus@@W4Resource@@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+    Hint on symbols that are defined and could potentially match:
+      "public: enum AppStatus __thiscall ResourceManager::LoadTexture(enum Resource,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?LoadTexture@ResourceManager@@QAE?AW4AppStatus@@W4Resource@@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+ResourceManager.obj : error LNK2019: unresolved external symbol _UnloadTexture referenced in function "public: void __thiscall ResourceManager::Release(void)" (?Release@ResourceManager@@QAEXXZ)
+Scene.obj : error LNK2019: unresolved external symbol _BeginMode2D referenced in function "public: void __thiscall Scene::Render(void)" (?Render@Scene@@QAEXXZ)
+Scene.obj : error LNK2019: unresolved external symbol _EndMode2D referenced in function "public: void __thiscall Scene::Render(void)" (?Render@Scene@@QAEXXZ)
+Sprite.obj : error LNK2019: unresolved external symbol _DrawTextureRec referenced in function "public: virtual void __thiscall Sprite::DrawTint(int,int,struct Color const &)const " (?DrawTint@Sprite@@UBEXHHABUColor@@@Z)
+StaticImage.obj : error LNK2001: unresolved external symbol _DrawTextureRec
+Text.obj : error LNK2001: unresolved external symbol _DrawTextureRec
+TileMap.obj : error LNK2001: unresolved external symbol _DrawTextureRec
+H:\VisualStudioProject\SuperSoukoban\Debug\SuperSoukoban.exe : fatal error LNK1120: 29 unresolved externals

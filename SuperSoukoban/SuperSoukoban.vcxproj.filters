@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\UPC\Project_1\PPT\p10-Vikings\Vikings\src\Globals.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\UPC\Project_1\PPT\p10-Vikings\Vikings\src\main.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\UPC\Project_1\PPT\p10-Vikings\Vikings\src\ResourceManager.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\UPC\Project_1\PPT\p10-Vikings\Vikings\src\Game.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\UPC\Project_1\PPT\p10-Vikings\Vikings\src\TileMap.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\UPC\Project_1\PPT\p10-Vikings\Vikings\src\Scene.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\UPC\Project_1\PPT\p10-Vikings\Vikings\src\Enemy.cpp">
+      <Filter>Entities\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\UPC\Project_1\PPT\p10-Vikings\Vikings\src\EnemyManager.cpp">
+      <Filter>Entities\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\UPC\Project_1\PPT\p10-Vikings\Vikings\src\Slime.cpp">
+      <Filter>Entities\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\UPC\Project_1\PPT\p10-Vikings\Vikings\src\Turret.cpp">
+      <Filter>Entities\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\UPC\Project_1\PPT\p10-Vikings\Vikings\src\Entity.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\UPC\Project_1\PPT\p10-Vikings\Vikings\src\Object.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\UPC\Project_1\PPT\p10-Vikings\Vikings\src\Particle.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\UPC\Project_1\PPT\p10-Vikings\Vikings\src\ParticleManager.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\UPC\Project_1\PPT\p10-Vikings\Vikings\src\Player.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\UPC\Project_1\PPT\p10-Vikings\Vikings\src\Shot.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\UPC\Project_1\PPT\p10-Vikings\Vikings\src\ShotManager.cpp">
+      <Filter>Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\UPC\Project_1\PPT\p10-Vikings\Vikings\src\AABB.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\UPC\Project_1\PPT\p10-Vikings\Vikings\src\RenderComponent.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\UPC\Project_1\PPT\p10-Vikings\Vikings\src\Sprite.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\UPC\Project_1\PPT\p10-Vikings\Vikings\src\StaticImage.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\UPC\Project_1\PPT\p10-Vikings\Vikings\src\Text.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\UPC\Project_1\PPT\p10-Vikings\Vikings\src\FadeTransition.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\UPC\Project_1\PPT\p10-Vikings\Vikings\src\Globals.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\UPC\Project_1\PPT\p10-Vikings\Vikings\src\MemLeaks.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\UPC\Project_1\PPT\p10-Vikings\Vikings\src\ResourceManager.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\UPC\Project_1\PPT\p10-Vikings\Vikings\src\Game.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\UPC\Project_1\PPT\p10-Vikings\Vikings\src\TileMap.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\UPC\Project_1\PPT\p10-Vikings\Vikings\src\Scene.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\UPC\Project_1\PPT\p10-Vikings\Vikings\src\Enemy.h">
+      <Filter>Entities\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\UPC\Project_1\PPT\p10-Vikings\Vikings\src\EnemyManager.h">
+      <Filter>Entities\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\UPC\Project_1\PPT\p10-Vikings\Vikings\src\Slime.h">
+      <Filter>Entities\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\UPC\Project_1\PPT\p10-Vikings\Vikings\src\Turret.h">
+      <Filter>Entities\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\UPC\Project_1\PPT\p10-Vikings\Vikings\src\Entity.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\UPC\Project_1\PPT\p10-Vikings\Vikings\src\Object.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\UPC\Project_1\PPT\p10-Vikings\Vikings\src\Particle.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\UPC\Project_1\PPT\p10-Vikings\Vikings\src\ParticleManager.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\UPC\Project_1\PPT\p10-Vikings\Vikings\src\Player.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\UPC\Project_1\PPT\p10-Vikings\Vikings\src\Shot.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\UPC\Project_1\PPT\p10-Vikings\Vikings\src\ShotManager.h">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\UPC\Project_1\PPT\p10-Vikings\Vikings\src\AABB.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\UPC\Project_1\PPT\p10-Vikings\Vikings\src\Point.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\UPC\Project_1\PPT\p10-Vikings\Vikings\src\Text.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\UPC\Project_1\PPT\p10-Vikings\Vikings\src\FadeTransition.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\UPC\Project_1\PPT\p10-Vikings\Vikings\src\RenderComponent.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\UPC\Project_1\PPT\p10-Vikings\Vikings\src\Sprite.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\UPC\Project_1\PPT\p10-Vikings\Vikings\src\StaticImage.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Application">
+      <UniqueIdentifier>{11cd0e03-59be-4bc4-8596-f95774e0fc77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{4b880c39-3e30-4792-9fbf-e27c826c79a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities">
+      <UniqueIdentifier>{96ae695e-dd48-405b-8e4e-232cc79d02c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\Enemies">
+      <UniqueIdentifier>{86a93cca-b0b6-4e0e-ba38-765ac8207b9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Geometry">
+      <UniqueIdentifier>{1c69a380-daad-4e06-97c5-86048245c5cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render">
+      <UniqueIdentifier>{e74511e7-dcd9-4ac9-869e-7f8531e92392}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
